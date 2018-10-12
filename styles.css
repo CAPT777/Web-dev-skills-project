@@ -1,0 +1,90 @@
+/* Style sheet for wed dev site */
+
+html {
+    background: url(images/triangles-1430105.png) no-repeat center fixed; 
+    background-size: cover;
+}
+
+div {
+
+    width: 600px;
+    margin: 60px auto; 
+    padding: 20px 100px;
+    background-color: white;
+    border-radius: 20px;
+}
+.effects1 {
+    border: 2px rgb(228, 77, 38);
+    box-shadow: 5px 5px rgb(228, 77, 38);
+
+}
+
+.effects2 { 
+    border: 2px rgb(38, 77, 228);
+    box-shadow: 5px 5px rgb(38, 77, 228);
+}
+
+.effects3 {
+    border: 2px rgb(229, 161, 41);
+    box-shadow: 5px 5px rgb(229, 161, 41);
+
+}
+
+h1 { 
+        font-family: 'Oswald', sans-serif;
+    font-size: 46px;
+    text-shadow: 3px 3px black;
+    color: white
+}
+
+h1  {
+    border: 1px solid rgb(250, 250, 250);
+    text-align: center;
+    width: 900;
+    padding: 20px 0;
+    margin: left 100px
+}
+
+h2 {
+    font-variant: small-caps;
+    
+}
+
+p {
+
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 0ch   
+}
+
+.tutorial {
+    font-size: 12px; 
+    
+}
+
+.picture1{
+        color: rgb(228, 77, 38);
+    font-size: 38px
+    }
+
+.picture2{
+        color: rgb(38, 77, 228);
+    font-size: 38px
+}
+
+
+.picture3{
+        color: rgb(229, 161, 41);
+    font-size: 38px
+}
+
+/* link  styles*/ 
+
+a {
+    color: #0c910c;
+    text-decoration: none
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(190, 4, 190);
+}
